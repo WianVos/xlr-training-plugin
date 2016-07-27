@@ -47,7 +47,6 @@ delete_users_list = filter_user(get_user_list())
 for u in delete_users_list:
     delete_user(u['username'])
 
-blah
 # filter the list for exempt users
 
 # loop over the filtered list to remove all users
